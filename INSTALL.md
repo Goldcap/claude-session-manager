@@ -155,6 +155,8 @@ export CLAUDE_THRESHOLD_MB=10  # Archive at 10MB instead
 
 If you have Linear MCP configured in Claude Code, the `/continue` command will automatically use it. No additional configuration needed.
 
+For multi-workspace Linear setups, see [@Goldcap's linear-mcp](https://github.com/Goldcap/linear-mcp).
+
 **Option B: Direct API**
 
 Store your Linear API token in Claude LTM:
@@ -166,6 +168,8 @@ Store your Linear API token in Claude LTM:
    ```
 
 The `/continue` command will recall and use it.
+
+**Note:** Claude LTM (Long Term Memory) is a separate MCP plugin, not included with this project. If you don't have it, use Option A (Linear MCP) or skip Linear integration - `/continue` works fine without it.
 
 ## Verification
 
