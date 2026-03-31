@@ -1,0 +1,7 @@
+{
+  "name": "continue",
+  "description": "Resume work from previous session with intelligent context loading",
+  "version": "1.0.0",
+  "author": "amadsen",
+  "triggers": ["continue", "resume work", "pick up where we left off"]
+}

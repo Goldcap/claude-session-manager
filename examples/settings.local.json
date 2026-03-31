@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "$HOME/.claude/hooks/post-response.sh",
+            "statusMessage": "Checking session size...",
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}
