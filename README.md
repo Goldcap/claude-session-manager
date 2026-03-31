@@ -255,6 +255,8 @@ Add to `~/.bashrc` or `~/.zshrc` to persist.
 
 If you have Linear MCP configured, `/continue` will automatically query active tickets.
 
+**Multi-client Linear MCP:** For teams using multiple Linear workspaces, check out [@Goldcap's linear-mcp](https://github.com/Goldcap/linear-mcp) which supports multi-workspace configurations.
+
 **Option B: Direct API**
 
 Store Linear API token in Claude LTM:
@@ -265,6 +267,8 @@ Remember Linear API token as "linear-api-token"
 ```
 
 The `/continue` command will recall and use it.
+
+**Note:** Claude LTM (Long Term Memory) is a separate MCP plugin for Claude Code, not included in this project. If you don't have it installed, you can still use Linear MCP (Option A) or skip Linear integration entirely - the `/continue` command works fine with just local session context.
 
 ## Architecture
 
